@@ -1,3 +1,5 @@
 How to Unistall SQL Server Completely - https://youtu.be/-IWhO4GPHYs?feature=shared
 Run this below Command in cmd Prompt - 
   ---> wmic  product  where  "CAPTION like '%sql%'"  get Caption,  Identifyingnumber
+  ---> It will execute some GUID numbers 
+  ---> msiexec /x enter GUID Number
